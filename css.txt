@@ -1,0 +1,2 @@
+Cascading Style Sheets. It's a language for providing style to HTML elements.
+CSS can be defined inside of an HTML document with the <style> tag, or an separate CSS file.
