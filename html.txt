@@ -1,19 +1,16 @@
-Creating Your First HTML Webpage
+Hyper Text Markup Lanuage - defines the structure and layout of a Web document by using a variety of tags and attributes.
 
-First off, you need to open your HTML editor, where you will find a clean white page on which to write your code.
+>> Three main sections: header, main, footer.
 
-From there you need to layout your page with the following tags.
-Basic Construction of an HTML Page
+<!DOCTYPE html> ‚Äî This tag specifies the language you will write on the page. In this case, the language is HTML 5.
 
-These tags should be placed underneath each other at the top of every HTML page that you create.
+<html> ‚Äî This tag signals that from here on we are going to write in HTML code.
 
-<!DOCTYPE html> ó This tag specifies the language you will write on the page. In this case, the language is HTML 5.
+<head> ‚Äî This is where all the metadata for the page goes ‚Äî stuff mostly meant for search engines and other computer programs.
+       - Common HTML elements in the head element include title, style, meta, link and script tags.
 
-<html> ó This tag signals that from here on we are going to write in HTML code.
+<body> ‚Äî This is where the content of the page goes. The body element defines the main content of the web page. It's the viewable portion of a web page.
 
-<head> ó This is where all the metadata for the page goes ó stuff mostly meant for search engines and other computer programs.
-
-<body> ó This is where the content of the page goes.
 HTML Structure
 This is how your average HTML page is structured visually.
 Further Tags
@@ -57,15 +54,15 @@ As you might have guessed <h1> and <h2> should be used for the most important ti
 Search engine bots use this order when deciphering which information is most important on a page.
 Creating Your Heading
 
-Letís try it out. On a new line in the HTML editor, type:
+Let‚Äôs try it out. On a new line in the HTML editor, type:
 
 <h1>Welcome to My Page</h1>
 
-And hit save. We will save this file as ìindex.htmlî in a new folder called ìmy webpage.î
+And hit save. We will save this file as ‚Äúindex.html‚Äù in a new folder called ‚Äúmy webpage.‚Äù
 
-    The Moment of Truth: Click the newly saved file and your first ever web page should open in your default browser. It may not be pretty itís yoursÖ all yours. *Evil laugh*
+    The Moment of Truth: Click the newly saved file and your first ever web page should open in your default browser. It may not be pretty it‚Äôs yours‚Ä¶ all yours. *Evil laugh*
 
-Well letís not get carried away; we've still got loads of great features that we can add to your page.
+Well let‚Äôs not get carried away; we've still got loads of great features that we can add to your page.
 How To Add Text In HTML
 
 Adding text to our HTML page is simple using an element opened with the tag <p> which creates a new paragraph. We place all of our regular text inside the element <p>.
@@ -89,18 +86,18 @@ Element	Meaning	Purpose
 
 These tags must be opened and closed around the text in question.
 
-Letís try it out. On a new line in the HTML editor, type the following HTML code:
+Let‚Äôs try it out. On a new line in the HTML editor, type the following HTML code:
 
 <p>Welcome to <em>my</em> brand new website. This site will be my <strong>new<strong> home on the web.</p>
 
-Donít forget to hit save and then refresh the page in your browser to see the results.
+Don‚Äôt forget to hit save and then refresh the page in your browser to see the results.
 How To Add Links In HTML
 
 As you may have noticed, the internet is made up of lots of links.
 
 Almost everything you click on while surfing the web is a link takes you to another page within the website you are visiting or to an external site.
 
-Links are included in an attribute opened by the <a> tag. This element is the first that weíve met which uses an attribute and so it looks different to previously mentioned tags.
+Links are included in an attribute opened by the <a> tag. This element is the first that we‚Äôve met which uses an attribute and so it looks different to previously mentioned tags.
 The Anchor Tag
 
 The <a> (or anchor) opening tag is written in the format:
@@ -111,12 +108,12 @@ The first part of the attribute points to the page that will open once the link 
 
 Meanwhile, the second part of the attribute contains the text which will be displayed to a visitor in order to entice them to click on that link.
 
-If you are building your own website then you will most likely host all of your pages on professional web hosting. In this case, internal links on your website will <a href=îmylinkedpage.htmlî>Linktle Here</a>.
+If you are building your own website then you will most likely host all of your pages on professional web hosting. In this case, internal links on your website will <a href=‚Äùmylinkedpage.html‚Äù>Linktle Here</a>.
 Let's Create An Anchor Tag
 
-Letís try it out. Make a duplicate of the code from your current index.html page. Copy / paste it into a new window in your HTML editor.
+Let‚Äôs try it out. Make a duplicate of the code from your current index.html page. Copy / paste it into a new window in your HTML editor.
 
-Save this new page as ìpage2.htmlî and ensure that it is saved in the same folder as your index.html page.
+Save this new page as ‚Äúpage2.html‚Äù and ensure that it is saved in the same folder as your index.html page.
 
 On page2.html add the following code:
 
@@ -133,12 +130,12 @@ Ensure the folder path to the file (page2.html) is correct. Hit save and preview
 If everything is correct then you will see a link which will take you to your second page. On the second page, there will be a link that will take you to google.com.
 How To Add Images In HTML To Your Website
 
-In todayís modern digital world, images are everything. The <img> tag has everything you need to display images on your site. Much like the <a> anchor element, <img> also contains an attribute.
+In today‚Äôs modern digital world, images are everything. The <img> tag has everything you need to display images on your site. Much like the <a> anchor element, <img> also contains an attribute.
 
 The attribute features information for your computer regarding the source, height, width and alt text of the image.
 Styling and Formats
 Image Property
-You can check the file type of an image by right-clicking the item and selecting ëProperties'.
+You can check the file type of an image by right-clicking the item and selecting ‚ÄòProperties'.
 
 You can also define borders and other styles around the image using the class attribute. However, we shall cover this in a later tutorial.
 
@@ -150,12 +147,12 @@ The <img> tag normally is written as follows:
 
 <img src="yourimage.jpg" alt="Describe the image" height="X" width="X">
 
-Letís try it out.
+Let‚Äôs try it out.
 Create Your Own Image With An Alt Text
 
-    Don't be afraid to play around with the test code ñ it's a great way to have fun while learning.
+    Don't be afraid to play around with the test code ‚Äì it's a great way to have fun while learning.
 
-Save an image (.jpg, .png, .gif format) of your choice in the same folder where youíve saved index.html and page2.html. Call this image ìtestpic.jpg.î
+Save an image (.jpg, .png, .gif format) of your choice in the same folder where you‚Äôve saved index.html and page2.html. Call this image ‚Äútestpic.jpg.‚Äù
 
 On a new line in your HTML editor enter the following code:
 
@@ -209,7 +206,7 @@ The code used for the above is as follows:
 <dd>The definition goes here</dd>
 </dl>
 
-Letís try it out. Open index.html and on a new line, enter the following HTML:
+Let‚Äôs try it out. Open index.html and on a new line, enter the following HTML:
 
 <p>This website will have the following benefits for my business:</p>
 <ul>
@@ -221,11 +218,11 @@ Letís try it out. Open index.html and on a new line, enter the following HTML:
 Now hit save and check out the results in your browser. If everything worked out then it will display a bullet-pointed table displaying the information above.
 How To Add Tables In HTML
 HTML Tables
-Tables can be styled in various ways ñ Codepen.io offers live previews to keep track of changes.
+Tables can be styled in various ways ‚Äì Codepen.io offers live previews to keep track of changes.
 
 Another way to keep your website looking neat and orderly is through the use of a table.
 
-    Do not use a table to layout your website. Search engines hate it and it is generally a bad idea. JustÖ don't. See our CSS tutorial, instead.
+    Do not use a table to layout your website. Search engines hate it and it is generally a bad idea. Just‚Ä¶ don't. See our CSS tutorial, instead.
 
 This is definitely the most complicated part of this tutorial, however, learning it will certainly pay off in the long-run.
 
@@ -256,7 +253,7 @@ Table Tags
 
 However, watch out for these tags so that you can recognize them and use them as your skills develop.
 
-Here are the tables tags presented in a table ñ pun totally intended.
+Here are the tables tags presented in a table ‚Äì pun totally intended.
 Table Tag	Meaning	Location
 <thead> 	Table Head	Top of the table
 <tbody>	Table Body	Content of the table
@@ -285,26 +282,26 @@ Hit save and preview it in your browser.
 Congratulations: You did it!
 How To Close an HTML Document
 
-Youíve reached the end of our absolute beginners HTML tutorial.
+You‚Äôve reached the end of our absolute beginners HTML tutorial.
 
 The final step we need to complete is to close the <body> and <html> tags at the end of each page using the following HTML code:
 
 </body>
 </html>
 
-    In this guide, youíve learned how to create basic HTML web pages.
+    In this guide, you‚Äôve learned how to create basic HTML web pages.
 
-Youíve also learned to add headings, text, images, links, lists and basic tables to these pages.
+You‚Äôve also learned to add headings, text, images, links, lists and basic tables to these pages.
 What's Next?
 
 You can now use this knowledge to create your own web pages containing these features and link them together.
 
-We suggest that you further enhance your skills by experimenting with the code youíve learned using different variables. You may also wish to learn about how to make your pages beautiful using CSS.
+We suggest that you further enhance your skills by experimenting with the code you‚Äôve learned using different variables. You may also wish to learn about how to make your pages beautiful using CSS.
 
 The power to create your own website is now in your hands.
 Troubleshooting
 
-In case things didnít work out as intended, simply check your HTML code against the examples below.
+In case things didn‚Äôt work out as intended, simply check your HTML code against the examples below.
 
 Index.html troubleshooting code:
 
