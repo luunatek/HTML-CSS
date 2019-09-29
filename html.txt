@@ -51,22 +51,6 @@ In HTML, headings are written in the following elements:
 
 As you might have guessed <h1> and <h2> should be used for the most important titles, while the remaining tags should be used for sub-headings and less important text.
 
-Search engine bots use this order when deciphering which information is most important on a page.
-Creating Your Heading
-
-Let’s try it out. On a new line in the HTML editor, type:
-
-<h1>Welcome to My Page</h1>
-
-And hit save. We will save this file as “index.html” in a new folder called “my webpage.”
-
-    The Moment of Truth: Click the newly saved file and your first ever web page should open in your default browser. It may not be pretty it’s yours… all yours. *Evil laugh*
-
-Well let’s not get carried away; we've still got loads of great features that we can add to your page.
-How To Add Text In HTML
-
-Adding text to our HTML page is simple using an element opened with the tag <p> which creates a new paragraph. We place all of our regular text inside the element <p>.
-
 When we write text in HTML, we also have a number of other elements we can use to control the text or make it appear in a certain way.
 Other Key Elements
 
@@ -86,17 +70,6 @@ Element	Meaning	Purpose
 
 These tags must be opened and closed around the text in question.
 
-Let’s try it out. On a new line in the HTML editor, type the following HTML code:
-
-<p>Welcome to <em>my</em> brand new website. This site will be my <strong>new<strong> home on the web.</p>
-
-Don’t forget to hit save and then refresh the page in your browser to see the results.
-How To Add Links In HTML
-
-As you may have noticed, the internet is made up of lots of links.
-
-Almost everything you click on while surfing the web is a link takes you to another page within the website you are visiting or to an external site.
-
 Links are included in an attribute opened by the <a> tag. This element is the first that we’ve met which uses an attribute and so it looks different to previously mentioned tags.
 The Anchor Tag
 
@@ -109,57 +82,12 @@ The first part of the attribute points to the page that will open once the link 
 Meanwhile, the second part of the attribute contains the text which will be displayed to a visitor in order to entice them to click on that link.
 
 If you are building your own website then you will most likely host all of your pages on professional web hosting. In this case, internal links on your website will <a href=”mylinkedpage.html”>Linktle Here</a>.
-Let's Create An Anchor Tag
-
-Let’s try it out. Make a duplicate of the code from your current index.html page. Copy / paste it into a new window in your HTML editor.
-
-Save this new page as “page2.html” and ensure that it is saved in the same folder as your index.html page.
-
-On page2.html add the following code:
-
-<a href="http://www.google.com">Google</a>
-
-This will create a link to Google on page 2. Hit save and return to your index.html page.
-
-On a new line on index.html add the following code:
-
-<a href="*folder(s)*/page2.html">Page2</a>
-
-Ensure the folder path to the file (page2.html) is correct. Hit save and preview index.html in your browser.
-
-If everything is correct then you will see a link which will take you to your second page. On the second page, there will be a link that will take you to google.com.
-How To Add Images In HTML To Your Website
-
-In today’s modern digital world, images are everything. The <img> tag has everything you need to display images on your site. Much like the <a> anchor element, <img> also contains an attribute.
-
-The attribute features information for your computer regarding the source, height, width and alt text of the image.
-Styling and Formats
-Image Property
-You can check the file type of an image by right-clicking the item and selecting ‘Properties'.
-
-You can also define borders and other styles around the image using the class attribute. However, we shall cover this in a later tutorial.
-
-The file types generally used for image files online are: .jpg, .png, and (less and less) .gif.
-
-Alt text is important to ensure that your site is ranked correctly on search sites and also for visually impaired visitors to your site.
 
 The <img> tag normally is written as follows:
 
 <img src="yourimage.jpg" alt="Describe the image" height="X" width="X">
 
-Let’s try it out.
-Create Your Own Image With An Alt Text
 
-    Don't be afraid to play around with the test code – it's a great way to have fun while learning.
-
-Save an image (.jpg, .png, .gif format) of your choice in the same folder where you’ve saved index.html and page2.html. Call this image “testpic.jpg.”
-
-On a new line in your HTML editor enter the following code:
-
-<img src="testpic.jpg" alt="This is a test image" height="42" width="42">
-
-Hit save and preview the index.html page in your browser.
-How To Make an HTML List
 
 In web design, there are 3 different types of lists which you may wish to add to your site.
 Ordered List
@@ -206,21 +134,7 @@ The code used for the above is as follows:
 <dd>The definition goes here</dd>
 </dl>
 
-Let’s try it out. Open index.html and on a new line, enter the following HTML:
 
-<p>This website will have the following benefits for my business:</p>
-<ul>
-<li>Increased traffic </li>
-<li>Global Reach</li>
-<li>Promotional Opportunities</li>
-</ul>
-
-Now hit save and check out the results in your browser. If everything worked out then it will display a bullet-pointed table displaying the information above.
-How To Add Tables In HTML
-HTML Tables
-Tables can be styled in various ways – Codepen.io offers live previews to keep track of changes.
-
-Another way to keep your website looking neat and orderly is through the use of a table.
 
     Do not use a table to layout your website. Search engines hate it and it is generally a bad idea. Just… don't. See our CSS tutorial, instead.
 
@@ -277,12 +191,6 @@ Go to a new line on the index.html page within your text editor. Enter the follo
 </tr>
 </table>
 
-Hit save and preview it in your browser.
-
-Congratulations: You did it!
-How To Close an HTML Document
-
-You’ve reached the end of our absolute beginners HTML tutorial.
 
 The final step we need to complete is to close the <body> and <html> tags at the end of each page using the following HTML code:
 
@@ -290,18 +198,6 @@ The final step we need to complete is to close the <body> and <html> tags at the
 </html>
 
     In this guide, you’ve learned how to create basic HTML web pages.
-
-You’ve also learned to add headings, text, images, links, lists and basic tables to these pages.
-What's Next?
-
-You can now use this knowledge to create your own web pages containing these features and link them together.
-
-We suggest that you further enhance your skills by experimenting with the code you’ve learned using different variables. You may also wish to learn about how to make your pages beautiful using CSS.
-
-The power to create your own website is now in your hands.
-Troubleshooting
-
-In case things didn’t work out as intended, simply check your HTML code against the examples below.
 
 Index.html troubleshooting code:
 
