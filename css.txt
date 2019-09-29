@@ -1,2 +1,21 @@
 Cascading Style Sheets. It's a language for providing style to HTML elements.
 CSS can be defined inside of an HTML document with the <style> tag, or an separate CSS file.
+
+body {
+   background-color: grey;
+   font-size: 30px;
+}
+
+1. Rule set
+2. Selector { } - contains html element(body), paragraph, image, class selector(starts with .), id.
+3. decoration inside {}
+3. css property: css value.
+
+CSS Units - css provides absolute and relative units to define length. It's expressed by a number value plus the unit. 
+- font size: 30px;
+
+Absolute units are fixed units, this will not change between different screen sizes (unless media queries are used).
+media queries: cm, mm, in, px, pt, pc(picas)
+
+Relative units are reliable to another property, thus will change between different screen automatically: %, em, rem, vw, vh, vmin, vmax(viewport max).
+
