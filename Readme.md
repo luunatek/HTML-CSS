@@ -261,3 +261,15 @@ Here is a Code Pen that demonstrates how styles apply to different selectors.
         text-decoration: line-through; /* applies to all li elements, in both ul and ol tags */
     }
 
+>>> Combining multiple selectors
+
+You can imagine that multiple HTML elements on your page will have similar style. If you write a separate CSS rule with the same properties for each of these elements, your CSS file can get very large and hard to manage. When designing CSS, the authors wanted to help make it as easy as possible to write and edit style sheets "by hand", so there are a number of features that help keep your styles succinct.
+
+For example, what if you want to change the font that is consistent across many elements? You would have to change it in many places. Instead, you can combine multiple selectors on the same rule like so:
+
+    p, ul, ol {
+       color: blue;
+       background-color: pink;
+    }
+
+The comma means that each of these elements should have the same, duplicated style. No need to have repeated style! Of course, you could simply apply this style to an element that contains all of these, say the body element, but not all properties are inherited so using the comma is a direct way to apply consistent style across multiple categories of HTML elements. 
