@@ -153,3 +153,23 @@ The div element is a generic element to hold content. It is considered a last re
            <p> This is a paragraph explaining this section of content associated with the above image and title </p>
         </div>
 
+
+>>> Here is an example CSS "rule":
+
+    p {
+        color: blue;
+    }
+
+This rule tells the browser to make all text within a paragraph tag blue. A CSS rule is broken into two parts: the selector and the property
+
+css anatomy
+Selector
+
+This is the portion of the rule before the first open curly brace ( "{" character). This is what tells the browser what HTML tags this rule applies to. Often, you'll just see a selector that matches an HTML tag, like in this instance- our selector is just "p". However, as we get further into this course, you'll find that there are many ways to target specific HTML elements and many different ways to structure selectors so that you are targeting exactly the part of your site you want to style.
+Property
+
+This is the portion of the rule between the two curly braces. This is what tells the browser how to style the HTML tag that has been selected. This can be as many lines of code as you choose, each of which has two parts- the property and the value you want that property to be. For our example, "color" is the property and "blue" is the value, but we could also have had a value of "black" or "#FFFFFF" (which is HEX code for white). Each property line is constructed so:
+
+property anatomy
+
+The style for your page will consist of a list of many CSS rules put together. As we move through this course we will help you build up these rules to style your entire page.
