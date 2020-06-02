@@ -1,6 +1,8 @@
 Cascading Style Sheets. It's a language for providing style to HTML elements.
 CSS can be defined inside of an HTML document with the <style> tag, or an separate CSS file.
 
+CSS, or Cascading Style Sheets, is a style sheet language used to describe the way an HTML or XML document should look to a user. CSS is where you specify the color, size, spacing, font and other visual aspects of the content that you create in your markup language document.
+
 body {
    background-color: grey;
    font-size: 30px;
