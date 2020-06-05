@@ -25,4 +25,3 @@ If we applied the following CSS rule then the images INSIDE the paragraph would 
 
 As your Web pages get more complex, contextual selectors become more important, because it won't scale to apply classes and IDs to each individual item. Contextual selection becomes especially useful when you structure your HTML with section tags like header, section, article and footer. 
 
-Pay attention to the styles of the paragraphs and lists in the following example:
