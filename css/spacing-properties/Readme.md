@@ -11,7 +11,7 @@ For now, we'll use pixels because that is easier to learn. However, ultimately y
 
 When you view an element in your browser tools you can see the white space around it represented like so:
 
-margin padding border
+>>> Margin padding border
 
 The above image is called the "box model", which we will get into more detail about in Module 4. For now, you can see that the space around the content is broken into three distinct regions. 
 Padding
@@ -24,8 +24,7 @@ Padding
 
 You can set the padding on an element's four sides independently using padding-top, padding-right, padding-bottom and padding-left. Or you can use the more compact padding: 10px 15px 20px 25px. In this case, the order of the numbers sets the top, right, bottom and left paddings. In the above example, I collapsed all of these and just set the padding on all four sides to be 20px. Here is a code pen that demonstrates all these different ways to set padding.
 
-Documentation
-Border
+>>> Border
 
     p {
        border: 1px black solid;
@@ -33,7 +32,7 @@ Border
 
 The "border" is the area outside the padding of an HTML element. By default, borders are set to be empty, but you can set their width, color, pattern, even an image! Like padding, you can even adjust the four sides of a border independent of one another using border-top, border-right, border-bottom or border-left. You can also adjust the different aspects of a border with border-width, border-color, and border-style. In the above example, I collapsed all of these properties into a single simple property and value set. 
 
-Margin
+>>> Margin
 
     p {
        margin-bottom: 50px;
@@ -43,11 +42,8 @@ An HTML element's "margin" is the white space that sits outside the border. Marg
 
 For example, the body tag typically has a margin that causes any content to not extend all the way to the extreme edge of the page. Be careful, margins can be tricky. When two margins touch they "collapse" such that the space between the elements is equivalent to the larger of the two margins. Like the above properties, you can also set the margins on each side independently using margin-top, margin-left, margin-bottom and margin-right. 
 
-Example:
-
-Here is a CodePen exploring padding, border and margin.
-
-HTML code:
+>>> Example:
+>>> HTML code:
 
     <!DOCTYPE html>
     <html lang="en">
@@ -69,7 +65,7 @@ HTML code:
         </body>
     </html>
 
-CSS code:
+>>> CSS code:
 
     body {
         background-color: #99ffff;
