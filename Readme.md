@@ -1,3 +1,6 @@
+https://www.w3.org/Style/CSS/all-properties#list
+https://meiert.com/en/indices/css-properties/
+
 Common HTML tags
 There are many HTML tags to choose from depending on what elements you want to structure on your page. You can always look up HTML tags here. However, here is a short list of some of the most common HTML tags, ones you'll see us use throughout this course.
 
