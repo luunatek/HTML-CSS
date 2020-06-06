@@ -23,5 +23,3 @@ This form design is more minimalist, using the clear and consistent design and l
 Form 3
 This form design leaves lots of white space to help it feel clean and simple. 
 
-Form 3 design
-This form design leaves lots of white space to help it feel clean and simple. 
