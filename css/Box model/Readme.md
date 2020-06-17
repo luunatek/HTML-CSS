@@ -34,45 +34,6 @@ Setting width and height with percentages will save you work because your design
 
 For example, images will get "pixelated" if you let them grow too large, and they can look really distorted. Thankfully, you can set max and min width and heights. This way, you can set a range for your image to grow and shrink where you know it will still look good. 
 
-    img {
-       width: 100%;
-       max-width: 1024px;
-    }
-
-
-
-<!DOCTYPE html> 
-<!--It's a best practice to always declare DOCTYPE!-->
-<html lang="en">
-  <head>
-    <title>Dynamic Width and Height</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <p id="width50">
-      width 50%, no min or max
-    </p>
-    <p id="width80max">
-      width 80%, max of 1000px
-    </p>
-    <p id="width30min">
-      width 30%, min of 200px
-    </p>
-    <p class="heightSet">
-      the height is set to 25%, but there is no affect
-    </p>
-    <div id="containingBlock">
-      <p class="heightSet">
-        this height is also set to 25%, and since it's within a div containing block who has a set height of 500px this p will resize in relation to that. 
-      </p>
-    </div>
-  </body>
-</html>
-
-
-
-
-
 #width50 {
   background-color:red;
   width: 50%;
