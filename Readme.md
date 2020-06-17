@@ -276,3 +276,10 @@ For example, what if you want to change the font that is consistent across many 
     }
 
 The comma means that each of these elements should have the same, duplicated style. No need to have repeated style! Of course, you could simply apply this style to an element that contains all of these, say the body element, but not all properties are inherited so using the comma is a direct way to apply consistent style across multiple categories of HTML elements. 
+
+>>> When to use what:
+    Use padding and margin whenever you can. This will keep things simple in relation to the box model and the overall flow of elements in relation to one another.
+    The float property is necessary when you want two block elements to share horizontal space. It can be easy to overuse the float property, keep in mind that if elements aren't floating the way you want them to you might want to adjust their order in the HTML instead of applying float to more and more elements.
+    If the above tools aren't getting your element where it should be, you can use relative positioning and directly set the box offsets (top, bottom, left, right). This makes things a bit more complicated especially when you try to inspect the box model around your element, but sometimes this is unavoidable because of collapsing margins. 
+    If all that is not enough, there are advanced CSS features such as flexbox, table layout, absolute positioning and grid layout.
+
