@@ -1,4 +1,5 @@
 >>> Color
+http://www.paletton.com/
 
 One of the most important design decisions you can make is your Web site's color palette. You should choose a palette before you begin designing to keep a cohesive visual identity. A common mistake it to use too many colors on a page. As you are starting out, it is best to limit yourself to just a few colors per page.
 
