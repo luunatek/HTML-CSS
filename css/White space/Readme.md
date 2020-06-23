@@ -1,4 +1,4 @@
-White space
+>>> White space
 
 It can be difficult to strike a good balance of white space. The most common mistake beginner Web designers make is to not leave enough white space or empty space between HTML elements. 
 
